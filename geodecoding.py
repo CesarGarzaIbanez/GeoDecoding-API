@@ -14,7 +14,7 @@ def getAddress(lat, long):
     return address
 
 def sort_array_by_serial(array):
-    sorted_array = sorted(array, key=lambda obj: obj['deviceSerialNumber'])
+    sorted_array = sorted(array, key=lambda obj: obj['trackerDeviceSerialNumber'])
     return sorted_array
 
 def mapArray(array):
